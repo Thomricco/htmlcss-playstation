@@ -2,6 +2,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.text-white {
+    color: white;
+}
+
+.text-gray {
+color: gray;
+font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: small;
+}
 
 .container-fixed {
     position: fixed;
@@ -42,15 +55,63 @@ body {
 
 .jumb-text {
     width: 400px;
-    padding-top: 220px;
+    padding-top: 150px;
 }
 
 .logo-returnal {
     width: 150px;
-    height: 50px;
 
 }
 
-.text-white {
-    color: white;
+
+.box-img {
+    border-radius: 10px;
+    height: 100px;
 }
+
+.img-play5 {
+    height: 600px;
+    width: 600px;
+}
+
+.jumbo-ps5 {
+    align-items: center;
+}
+
+.jumbotron2 {
+    height: 600px;
+    background: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    margin-top: 50px;
+
+}
+
+.logo-takes {
+    
+    width: 200px;
+}
+
+.jumb2-text {
+    width: 400px;
+    padd
+}
+
+.container-gray {
+    background-color: black;
+}
+
+.box-img2 {
+    border-radius: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.bi-badge-tm {
+    border: none;
+    font-size: 10px;
+}
+
+.logo-midium {
+    width: 400px;
+}
+
