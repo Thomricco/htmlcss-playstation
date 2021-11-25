@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.nav-fixed {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: black;
+
+}
+.logo-sony {
+    width: 50px;
+    height: 25px;
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+}
+
