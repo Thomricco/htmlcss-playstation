@@ -2,9 +2,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .text-white {
     color: white;
 }
+
+
 
 .text-gray {
 color: gray;
@@ -39,6 +42,10 @@ a {
     border-radius: 50px;
 }
 
+.btn:hover {
+    border: none
+}
+
 .logo {
     width: 25px;
     height: 25px;
@@ -64,14 +71,15 @@ a {
 }
 
 
+
 .box-img {
     border-radius: 10px;
-    height: 100px;
+    width: 100%;
 }
 
 .img-play5 {
-    height: 600px;
-    width: 600px;
+    width: 100%;
+   
 }
 
 .jumbo-ps5 {
@@ -87,13 +95,11 @@ a {
 }
 
 .logo-takes {
-    
     width: 200px;
 }
 
 .jumb2-text {
     width: 400px;
-    padd
 }
 
 .container-gray {
@@ -101,9 +107,9 @@ a {
 }
 
 .box-img2 {
-    border-radius: 10px;
+    border-radius: 10px
     height: 150px;
-    width: 150px;
+    width: 100%;
 }
 
 .bi-badge-tm {
@@ -112,6 +118,71 @@ a {
 }
 
 .logo-midium {
-    width: 400px;
+    width: 100%;
 }
 
+
+.jumbotron3 {
+
+    background-color: gray;
+
+}
+
+.img-monthly {
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.logo-ps {
+    width: 300px;
+}
+
+.jumbotron4 {
+    height: 450px;
+    background-color: rgb(13, 13, 56);
+
+}
+.logo-social {
+    width: 150px;
+}
+
+.footer-box {
+    background-color: rgb(0, 61, 153);
+}
+
+.logo-globe {
+    width: 15px;
+    height: 15px;
+}
+
+.text-small {
+    font-size: 12px;
+}
+
+.logo-small {
+    width: 100px;
+}
+
+.box-logo-small {
+    margin-top: 70px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+@media (min-width: 768px) { 
+    .img-monthly {
+        display: inline;
+    }
+
+    
+ }
