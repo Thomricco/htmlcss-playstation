@@ -70,12 +70,37 @@ a {
 
 }
 
-
-
 .box-img {
     border-radius: 10px;
     width: 100%;
 }
+
+
+.box-img1 {
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #388cdf;
+}
+
+.box-img2 {
+    border-radius: 10px;
+    width: 100%;
+    border: none
+}
+
+.img-thumbnail:hover {
+    
+    transform: translateY(-20px);
+
+}
+
+.box-img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out;
+}
+
+
+
 
 .img-play5 {
     width: 100%;
