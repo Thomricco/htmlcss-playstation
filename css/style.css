@@ -3,11 +3,11 @@ body {
 }
 
 
+ /*-----  utility -----*/
+
 .text-white {
     color: white;
 }
-
-
 
 .text-gray {
 color: gray;
@@ -19,12 +19,55 @@ a {
     font-size: small;
 }
 
+
+a.btn {
+    border-radius: 40px;
+    border-width: 2px;
+}
+
+
+a.btn:hover {
+    box-shadow: inset 0px 0px 0px 2px black;
+}
+
+
+a.btn-primary:hover {
+    box-shadow: inset 0px 0px 0px 2px white;
+}
+
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+li {
+    list-style: none;
+}
+
+
+.btn {
+    border-radius: 50px;
+}
+
+
+.btn:hover {
+    border-radius: none;
+}
+
+ /*-----  fine utility -----*/
+
+
+ /*-----  Nav -----*/
+
 .container-fixed {
     position: fixed;
     width: 100%;
     top:0;
     left:0;
 }
+
 
 .nav-fixed {
     display: flex;
@@ -33,33 +76,24 @@ a {
     background-color: black;
 
 }
+
+
 .logo-sony {
     width: 50px;
     height: 25px;
 }
 
-a.btn {
-    border-radius: 40px;
-    border-width: 2px;
-}
-
-a.btn:hover {
-    box-shadow: inset 0px 0px 0px 2px black;
-}
-
-.btn {
-    border-radius: 50px;
-}
-
-.btn:hover {
-   
-}
 
 .logo {
     width: 25px;
     height: 25px;
     margin-top: 10px;
 }
+
+ /*-----  fine nav -----*/
+
+
+ /*-----  Jumbotron 1-----*/
 
 .jumbotron {
     height: 500px;
@@ -80,12 +114,6 @@ a.btn:hover {
 
 }
 
-.box-img {
-    border-radius: 10px;
-    width: 100%;
-}
-
-
 .box-img1 {
     border-radius: 10px;
     width: 100%;
@@ -98,35 +126,43 @@ a.btn:hover {
     border: none
 }
 
-.img-thumbnail:hover {
-    
-    transform: translateY(-20px);
 
+.img-thumbnail:hover {
+    transform: translateY(-20px);
 }
+
+ /*-----  fine Jumbotron 1-----*/
+
+
+/*-----  Console E Accessori ----*/
 
 .box-img:hover {
     opacity: 0.5;
     transition: opacity ease-in-out;
 }
 
-
-
-
 .img-play5 {
     width: 100%;
-   
 }
 
 .jumbo-ps5 {
     align-items: center;
 }
 
+/*-----  Fine Console E Accessori ----*/
+
+ /*-----  Jumbotron 2  -----*/
+
 .jumbotron2 {
     height: 600px;
     background: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     margin-top: 50px;
+}
 
+.box-img {
+    border-radius: 10px;
+    width: 100%;
 }
 
 .logo-takes {
@@ -137,14 +173,12 @@ a.btn:hover {
     width: 400px;
 }
 
+ /*-----  fine Jumbotron 2  -----*/
+
+/*-----  Giochi  ---*/
+
 .container-gray {
     background-color: black;
-}
-
-.box-img2 {
-    border-radius: 10px
-    height: 150px;
-    width: 100%;
 }
 
 .bi-badge-tm {
@@ -152,13 +186,20 @@ a.btn:hover {
     font-size: 10px;
 }
 
+/*-----   fine Giochi ----*/
+
+/*-----  PS4 ----*/
+
 .logo-midium {
     width: 100%;
 }
 
+/*-----  Fine Ps4----*/
+
+
+/*-----  Jumbotron 3 ----*/
 
 .jumbotron3 {
-
     background-color: gray;
 
 }
@@ -173,15 +214,25 @@ a.btn:hover {
     width: 300px;
 }
 
+/*-----  Fine Jumbotron 3 ----*/
+
+
+/*-----  Jumbotron 4 ----*/
+
 .jumbotron4 {
     height: 450px;
     background-color: rgb(13, 13, 56);
 
 }
+
 .logo-social {
     width: 150px;
 }
 
+/*----- Fine Jumbotron 4 ----*/
+
+
+/*-----  Footer----*/
 .footer-box {
     background-color: rgb(0, 61, 153);
 }
@@ -203,21 +254,16 @@ a.btn:hover {
     margin-top: 70px;
 }
 
-ul {
-    display: inline-block;
-    vertical-align: top;
-}
+/*----- Fine Footer----*/
 
 
-li {
-    list-style: none;
-}
 
+/*-----  Media ----*/
 
 @media (min-width: 768px) { 
+
     .img-monthly {
         display: inline;
     }
 
-    
  }
